@@ -1,0 +1,112 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.displayweather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.maincard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.cardtitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.weather span {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.weather form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.weather input {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid rgb(131, 10, 10);
+  border-radius: 20px;
+  background-color: rgb(240, 230, 199);
+  margin-bottom: 10px;
+  width: 300px;
+  font-size: 20px;
+}
+
+.weather-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #640907;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.displayweather {
+  margin-top: 20px;
+}
+
+.maincard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cardtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.weather-main {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.weather-icon {
+  width: 100px;
+  margin-bottom: 10px;
+}
